@@ -1,0 +1,115 @@
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	background-color: #000;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px;
+
+}
+
+#header {
+	height: 100px;
+	width: 1000px;
+	background-color: #897151;
+}
+
+
+#social{ float: left;}
+#search {float: right;}
+
+#menu {
+	height: 200px;
+	background: url('images/menu/menu-bg.png') no-repeat 0 -16px transparent;
+	width: 1000px;
+	z-index: 5;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0px;
+	height: 81px;
+}
+#menu ul li {
+	display: inline-block;
+	position: relative;
+	height: inherit;
+}
+
+
+#slider-top {
+	height:311px;
+	width: 928px;
+	margin-top: -120px;
+	padding: 0 36px;
+	background: url('images/slider-top/slider1.png') no-repeat 34px 0 #ffeac7;
+	position: relative;
+	z-index: -1;
+}
+
+#slider-top-select {
+height: 35px;
+background: url('images/slider-top/select-bar.png') no-repeat 0 0 #ffeac7;
+
+}
+
+#content {
+	clear: both;
+	height: 400px;
+	width: 1000px;
+	background-color: #ffeac7;
+}
+
+
+#footer {
+	height: 400px;
+	width: 100%;
+	background-color: #897151;
+}
+
+
+#carousel {
+	border-top: 1px solid #333;
+	height: 240px;
+	width: inherit;
+	padding: 15px 0px;
+}
+
+#carousel img {
+	height:235px;
+	float: left;
+}
+
+.divider {
+	height: 1px;
+	clear: both;
+}
+.footerBlocks {
+	width:250px;
+	height: 86px;
+	float:left;
+	text-align: center;
+}
+
+#freeBannerBox {
+	display: block;
+	height: 47px;
+	background: url('images/content/hd-strip.png') no-repeat 0 0 #ffeac7;
+}
+
+#contactBannerBox {
+	display: block;
+	height: 47px;
+	background: url('images/content/email-strip.png') no-repeat 0 0 #ffeac7;
+}
+
+.contentBox {
+	padding-top: 10px; 
+	width: 300px; 
+	height: inherit; 
+	float: left;
+}
